@@ -83,7 +83,7 @@ async function loadMainPrompts() {
       }
     ]);
   
-    // Call the appropriate function depending on what the user chose
+    // Function Called
     switch (choice) {
         case "VIEW_EMP":
             return viewEmployees();
@@ -115,4 +115,20 @@ async function loadMainPrompts() {
             return quit();
     }
   }
+  async function viewEmployees() {
+    const employees = await db.findAllEmployees();
   
+    console.log("\n");
+    console.table(employees);
+  
+    loadMainPrompts();
+  }
+  
+  async function viewEmployeesByDepartment() {
+    const departments = await db.findAllDepartments();
+  
+    const departmentChoices = departments.map(({ id, name }) => ({
+      name: name,
+      value: id
+    }));
+    
