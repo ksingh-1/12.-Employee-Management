@@ -34,7 +34,7 @@ This command-line application allows the user to:
 ## Installation
 To Install necessary dependencies, run the command:
 ```sh
-npm install or npm update
+npm install mysql inquirer console.table
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ To use the Employee Tracker, run the command:
 ```sh
 node server.js
 ```
-
+In MySql Workbench Go To File>Run SQL Script Find and Run employeeDB And Execute The Database Then Find, Run And Execute The seed.sql File.
 ## License
 This Project is Licenced with the ISC License.
 
