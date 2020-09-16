@@ -1,5 +1,3 @@
-# 12. Employee Management System
-
 <h1 align="center">12. Employee Management System</h1>
 <p align="center" margin="50px">
     <a>
