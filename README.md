@@ -12,7 +12,7 @@
 
 ## Title
 12. Employee Management System 
-![Screenshot](https://github.com/ksingh-1/)
+![Screenshot](https://github.com/ksingh-1/12.-Employee-Management/blob/master/Assets/12.%20EMS%20Screenshot.PNG)
 
 ## Description
 As a business owner, I want to be able to view and manage the departments, roles, and employees in my company so that I can organize and plan my business.
@@ -67,4 +67,4 @@ kulpreet.s18@gmail.com
 If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1)
 or reach me directly at <kulpreet.s18@gmail.com>.
 
-![final-screen](https://github.com/ksingh-1/)
+![final-screen](https://github.com/ksingh-1/12.-Employee-Management/blob/master/Assets/schema.png)
