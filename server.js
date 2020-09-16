@@ -312,13 +312,13 @@ async function main() {
         const prompt = await mainPrompt();
 
         switch(prompt.action) {
-            case 'Add department': {
+            case 'Add A Department': {
                 const newDepartmentName = await getDepartmentInfo();
                 await addDepartment(newDepartmentName);
                 break;
             }
 
-            case 'Add employee': {
+            case 'Add An Employee': {
                 const newEmployee = await getAddEmployeeInfo();
                 console.log("add an employee");
                 console.log(newEmployee);
@@ -326,41 +326,41 @@ async function main() {
                 break;
             }
 
-            case 'Add role': {
+            case 'Add An Employee Role': {
                 const newRole = await getRoleInfo();
                 console.log("add a role");
                 await addRole(newRole);
                 break;
             }
 
-            case 'Remove employee': {
+            case 'Remove An Employee': {
                 const employee = await getRemoveEmployeeInfo();
                 await removeEmployee(employee);
                 break;
             }
             
-            case 'Update employee role': {
+            case 'Update An Employee Role': {
                 const employee = await getUpdateEmployeeRoleInfo();
                 await updateEmployeeRole(employee);
                 break;
             }
 
-            case 'View all departments': {
+            case 'View All Departments': {
                 await viewAllDepartments();
                 break;
             }
 
-            case 'View all employees': {
+            case 'View All Employees': {
                 await viewAllEmployees();
                 break;
             }
 
-            case 'View all employees by department': {
+            case 'View All Employees By Department': {
                 await viewAllEmployeesByDepartment();
                 break;
             }
 
-            case 'View all roles': {
+            case 'View All Roles': {
                 await viewAllRoles();
                 break;
             }
