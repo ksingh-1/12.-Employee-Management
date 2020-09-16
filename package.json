@@ -1,0 +1,27 @@
+{
+  "name": "12.-employee-management",
+  "version": "1.0.0",
+  "description": "Command Line Employee Management System",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksingh-1/12.-Employee-Management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksingh-1/12.-Employee-Management/issues"
+  },
+  "homepage": "https://github.com/ksingh-1/12.-Employee-Management#readme"
+}
