@@ -8,8 +8,6 @@
     </a>
 </p>
 
-## Title
-12. Employee Management System 
 ![Screenshot](https://github.com/ksingh-1/12.-Employee-Management/blob/master/Assets/12.%20EMS%20Screenshot.PNG)
 
 ## Description
